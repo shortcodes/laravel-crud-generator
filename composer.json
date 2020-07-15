@@ -12,6 +12,13 @@
   "require": {
     "php": ">=7.0.0"
   },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Shortcodes\\CrudGenerator\\LaravelCrudGeneratorProvider"
+      ]
+    }
+  },
   "autoload": {
     "psr-4": {
       "Shortcodes\\CrudGenerator\\": "src/"
