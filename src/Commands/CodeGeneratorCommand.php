@@ -12,7 +12,7 @@ class CodeGeneratorCommand extends Command
     protected $signature = 'make:crud';
 
     protected $description = 'Make all nessesary things for controller';
-    private string $model;
+    private $model;
     private $tdb = [];
 
     /**
